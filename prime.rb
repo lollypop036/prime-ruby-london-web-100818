@@ -8,3 +8,5 @@ def prime?(n)
 end
   true
 end
+
+prime(4)
