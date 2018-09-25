@@ -7,5 +7,6 @@ false if n <= 1
   end
 end
   true
+  false if n <= 1
 end
 
