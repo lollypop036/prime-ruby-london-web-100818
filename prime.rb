@@ -5,8 +5,7 @@ def prime?(n)
   divisors.each { |y|
    n % y != 0 
    break if true
-   
- end
+
       
   }
   
