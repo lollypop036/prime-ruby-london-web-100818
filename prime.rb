@@ -5,7 +5,7 @@ false if n <= 1
 #    if n % divisor == 0
 #  return false
 #  end
-end
+#end
   true
   
 end
