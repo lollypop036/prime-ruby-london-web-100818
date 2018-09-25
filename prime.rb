@@ -1,13 +1,16 @@
 # Add  code here!
-def prime?(n)
-return false if n <= 1
- for divisor in (2...n) 
-    if n % divisor == 0
-  return false
-else return true
-  end
-end
- true
+def prime?(num)
+#return false if n <= 1
+ # #  if n % divisor == 0
+ # return false
+##else return true
+  #end
+##end
+## true
   
+  
+  return if num <= 1
+  (2..Math.sqrt(num)).none? { |i| (num % i).zero? }
+end
 end
 
