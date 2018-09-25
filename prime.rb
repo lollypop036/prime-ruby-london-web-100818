@@ -7,7 +7,7 @@ return false if n <= 1
 else return true
   end
 end
- # true
+ true
   
 end
 
