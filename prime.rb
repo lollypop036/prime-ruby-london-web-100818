@@ -9,4 +9,4 @@ end
   true
 end
 
-prime(4)
+prime?(4)
