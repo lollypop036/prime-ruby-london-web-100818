@@ -3,9 +3,11 @@ def prime?(n)
 
   divisors = (2...n).to_a
   divisors.each { |y|
-   if  n % y != 0 
-     return true
-      break
+   n % y != 0 
+   break if true
+   return true
+ end
+      
   }
   
 end
