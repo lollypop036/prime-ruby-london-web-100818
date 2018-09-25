@@ -9,4 +9,3 @@ end
   true
 end
 
-prime?(3)
